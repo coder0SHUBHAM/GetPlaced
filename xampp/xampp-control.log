@@ -1,0 +1,39 @@
+06:17:07  [main] 	Initializing Control Panel
+06:17:07  [main] 	Windows Version:  Home  64-bit
+06:17:07  [main] 	XAMPP Version: 8.2.12
+06:17:07  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+06:17:07  [main] 	You are not running with administrator rights! This will work for
+06:17:07  [main] 	most application stuff but whenever you do something with services
+06:17:07  [main] 	there will be a security dialogue or things will break! So think 
+06:17:07  [main] 	about running this application with administrator rights!
+06:17:07  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:17:07  [main] 	Checking for prerequisites
+06:17:08  [main] 	All prerequisites found
+06:17:08  [main] 	Initializing Modules
+06:17:08  [main] 	Starting Check-Timer
+06:17:08  [main] 	Control Panel Ready
+06:17:10  [Apache] 	Attempting to start Apache app...
+06:17:11  [Apache] 	Status change detected: running
+06:17:11  [mysql] 	Attempting to start MySQL app...
+06:17:12  [mysql] 	Status change detected: running
+06:17:12  [filezilla] 	Attempting to start FileZilla app...
+06:17:13  [mysql] 	Status change detected: stopped
+06:17:13  [mysql] 	Error: MySQL shutdown unexpectedly.
+06:17:13  [mysql] 	This may be due to a blocked port, missing dependencies, 
+06:17:13  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+06:17:13  [mysql] 	Press the Logs button to view error logs and check
+06:17:13  [mysql] 	the Windows Event Viewer for more clues
+06:17:13  [mysql] 	If you need more help, copy and post this
+06:17:13  [mysql] 	entire log window on the forums
+06:17:13  [filezilla] 	Status change detected: running
+06:17:13  [mercury] 	Attempting to start Mercury app...
+06:17:14  [mercury] 	Status change detected: running
+06:17:14  [Tomcat] 	Attempting to start Tomcat app...
+06:17:18  [mysql] 	Attempting to start MySQL app...
+06:17:18  [mysql] 	Status change detected: running
+06:17:34  [Tomcat] 	Tomcat Started/Stopped with errors, return code: 1
+06:17:34  [Tomcat] 	Make sure you have Java JDK or JRE installed and the required ports are free
+06:17:34  [Tomcat] 	Check the "/xampp/tomcat/logs" folder for more information
+07:52:35  [main] 	Deinitializing Modules
+07:52:35  [main] 	Deinitializing Control Panel
+

@@ -1,0 +1,194 @@
+[Wed Mar 12 13:50:36.561035 2025] [ssl:warn] [pid 3660:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:50:36.625330 2025] [ssl:warn] [pid 3660:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:50:37.127462 2025] [mpm_winnt:notice] [pid 3660:tid 476] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Mar 12 13:50:37.127462 2025] [mpm_winnt:notice] [pid 3660:tid 476] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Mar 12 13:50:37.127462 2025] [core:notice] [pid 3660:tid 476] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Mar 12 13:50:37.138464 2025] [mpm_winnt:notice] [pid 3660:tid 476] AH00418: Parent: Created child process 22244
+[Wed Mar 12 13:50:38.060187 2025] [ssl:warn] [pid 22244:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:50:38.108989 2025] [ssl:warn] [pid 22244:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:50:38.160278 2025] [mpm_winnt:notice] [pid 22244:tid 492] AH00354: Child: Starting 150 worker threads.
+[Wed Mar 12 13:51:18.400403 2025] [ssl:warn] [pid 24408:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:51:18.488181 2025] [ssl:warn] [pid 24408:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:51:18.560664 2025] [mpm_winnt:notice] [pid 24408:tid 516] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Mar 12 13:51:18.560664 2025] [mpm_winnt:notice] [pid 24408:tid 516] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Mar 12 13:51:18.560664 2025] [core:notice] [pid 24408:tid 516] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Mar 12 13:51:18.571419 2025] [mpm_winnt:notice] [pid 24408:tid 516] AH00418: Parent: Created child process 24668
+[Wed Mar 12 13:51:19.880263 2025] [ssl:warn] [pid 24668:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:51:19.947940 2025] [ssl:warn] [pid 24668:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 13:51:20.021730 2025] [mpm_winnt:notice] [pid 24668:tid 540] AH00354: Child: Starting 150 worker threads.
+[Wed Mar 12 19:51:34.357754 2025] [ssl:warn] [pid 9428:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 19:51:34.428080 2025] [core:warn] [pid 9428:tid 488] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 12 19:51:34.442571 2025] [ssl:warn] [pid 9428:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 19:51:35.060672 2025] [mpm_winnt:notice] [pid 9428:tid 488] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Mar 12 19:51:35.060672 2025] [mpm_winnt:notice] [pid 9428:tid 488] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Mar 12 19:51:35.060672 2025] [core:notice] [pid 9428:tid 488] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Mar 12 19:51:35.066879 2025] [mpm_winnt:notice] [pid 9428:tid 488] AH00418: Parent: Created child process 11172
+[Wed Mar 12 19:51:36.177402 2025] [ssl:warn] [pid 11172:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 19:51:36.247444 2025] [ssl:warn] [pid 11172:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 12 19:51:36.325296 2025] [mpm_winnt:notice] [pid 11172:tid 504] AH00354: Child: Starting 150 worker threads.
+[Wed Mar 12 20:01:53.601239 2025] [php:error] [pid 11172:tid 1924] [client ::1:56078] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Mar 12 20:11:07.714790 2025] [php:error] [pid 11172:tid 1924] [client ::1:56749] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'vaibhavkumbhar1212@gmail.com' for key 'email' in C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php:26\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php(26): mysqli->query('INSERT INTO stu...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php on line 26, referer: http://localhost/integrate%20(2)/integrate/student/register.php
+[Wed Mar 12 20:12:54.166240 2025] [php:error] [pid 11172:tid 1892] [client ::1:56808] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Mar 12 20:42:54.980163 2025] [php:error] [pid 11172:tid 1892] [client ::1:58372] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Mar 12 20:43:21.546257 2025] [php:error] [pid 11172:tid 1924] [client ::1:58379] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Mar 12 20:44:06.481478 2025] [php:error] [pid 11172:tid 1892] [client ::1:58445] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Mon Mar 24 21:32:04.343755 2025] [ssl:warn] [pid 14428:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 24 21:32:04.422737 2025] [core:warn] [pid 14428:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 24 21:32:04.440185 2025] [ssl:warn] [pid 14428:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 24 21:32:05.181942 2025] [mpm_winnt:notice] [pid 14428:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Mar 24 21:32:05.181942 2025] [mpm_winnt:notice] [pid 14428:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Mar 24 21:32:05.181942 2025] [core:notice] [pid 14428:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Mar 24 21:32:05.189919 2025] [mpm_winnt:notice] [pid 14428:tid 472] AH00418: Parent: Created child process 11908
+[Mon Mar 24 21:32:06.380903 2025] [ssl:warn] [pid 11908:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 24 21:32:06.466835 2025] [ssl:warn] [pid 11908:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 24 21:32:06.551617 2025] [mpm_winnt:notice] [pid 11908:tid 200] AH00354: Child: Starting 150 worker threads.
+[Mon Mar 24 21:33:47.317788 2025] [php:error] [pid 11908:tid 1892] [client ::1:58322] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Tue Mar 25 06:17:12.290258 2025] [ssl:warn] [pid 15208:tid 512] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 06:17:12.372839 2025] [core:warn] [pid 15208:tid 512] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 25 06:17:12.386733 2025] [ssl:warn] [pid 15208:tid 512] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 06:17:12.547364 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Mar 25 06:17:12.547364 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Mar 25 06:17:12.547364 2025] [core:notice] [pid 15208:tid 512] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Mar 25 06:17:12.554761 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00418: Parent: Created child process 1968
+[Tue Mar 25 06:17:13.771469 2025] [ssl:warn] [pid 1968:tid 108] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 06:17:13.843778 2025] [ssl:warn] [pid 1968:tid 108] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 06:17:13.923367 2025] [mpm_winnt:notice] [pid 1968:tid 108] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 25 06:18:53.773708 2025] [php:error] [pid 1968:tid 1916] [client ::1:62491] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Tue Mar 25 07:52:36.120010 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00428: Parent: child process 1968 exited with status 1073807364 -- Restarting.
+[Tue Mar 25 07:52:36.837750 2025] [ssl:warn] [pid 15208:tid 512] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 07:52:36.966027 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Mar 25 07:52:36.966027 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Mar 25 07:52:36.966027 2025] [core:notice] [pid 15208:tid 512] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Mar 25 07:52:36.974571 2025] [mpm_winnt:notice] [pid 15208:tid 512] AH00418: Parent: Created child process 13072
+[Tue Mar 25 20:11:27.609122 2025] [ssl:warn] [pid 21764:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 20:11:27.686547 2025] [core:warn] [pid 21764:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 25 20:11:27.700296 2025] [ssl:warn] [pid 21764:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 20:11:28.308610 2025] [mpm_winnt:notice] [pid 21764:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Mar 25 20:11:28.308610 2025] [mpm_winnt:notice] [pid 21764:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Mar 25 20:11:28.308610 2025] [core:notice] [pid 21764:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Mar 25 20:11:28.314927 2025] [mpm_winnt:notice] [pid 21764:tid 472] AH00418: Parent: Created child process 7896
+[Tue Mar 25 20:11:29.367150 2025] [ssl:warn] [pid 7896:tid 496] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 20:11:29.438910 2025] [ssl:warn] [pid 7896:tid 496] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 25 20:11:29.519134 2025] [mpm_winnt:notice] [pid 7896:tid 496] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 25 20:12:05.272788 2025] [php:error] [pid 7896:tid 1924] [client ::1:55586] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Apr 02 09:11:55.310228 2025] [ssl:warn] [pid 18160:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 09:11:55.389420 2025] [core:warn] [pid 18160:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 02 09:11:55.414426 2025] [ssl:warn] [pid 18160:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 09:11:56.213607 2025] [mpm_winnt:notice] [pid 18160:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Apr 02 09:11:56.213607 2025] [mpm_winnt:notice] [pid 18160:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Apr 02 09:11:56.213607 2025] [core:notice] [pid 18160:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 02 09:11:56.241614 2025] [mpm_winnt:notice] [pid 18160:tid 472] AH00418: Parent: Created child process 2280
+[Wed Apr 02 09:11:57.168077 2025] [ssl:warn] [pid 2280:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 09:11:57.407309 2025] [ssl:warn] [pid 2280:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 09:11:57.466322 2025] [mpm_winnt:notice] [pid 2280:tid 468] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 02 09:12:55.246950 2025] [php:error] [pid 2280:tid 1936] [client ::1:53689] script 'C:/xampp/htdocs/integrate (2)/integrate/student/fetch_jobs.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/view_jobs.php
+[Wed Apr 02 09:13:54.031510 2025] [php:error] [pid 2280:tid 1936] [client ::1:53732] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Apr 02 10:26:42.370069 2025] [ssl:warn] [pid 10160:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 10:26:42.449407 2025] [core:warn] [pid 10160:tid 476] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 02 10:26:42.469308 2025] [ssl:warn] [pid 10160:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 10:26:42.637340 2025] [mpm_winnt:notice] [pid 10160:tid 476] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Apr 02 10:26:42.637340 2025] [mpm_winnt:notice] [pid 10160:tid 476] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Apr 02 10:26:42.637340 2025] [core:notice] [pid 10160:tid 476] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 02 10:26:42.647976 2025] [mpm_winnt:notice] [pid 10160:tid 476] AH00418: Parent: Created child process 2720
+[Wed Apr 02 10:26:43.909896 2025] [ssl:warn] [pid 2720:tid 480] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 10:26:43.979520 2025] [ssl:warn] [pid 2720:tid 480] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 10:26:44.055174 2025] [mpm_winnt:notice] [pid 2720:tid 480] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 02 10:28:11.851785 2025] [php:error] [pid 2720:tid 1924] [client ::1:55011] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Apr 02 11:59:39.568945 2025] [ssl:warn] [pid 16464:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 11:59:39.644594 2025] [core:warn] [pid 16464:tid 508] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 02 11:59:39.662598 2025] [ssl:warn] [pid 16464:tid 508] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 11:59:39.811092 2025] [mpm_winnt:notice] [pid 16464:tid 508] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Apr 02 11:59:39.811092 2025] [mpm_winnt:notice] [pid 16464:tid 508] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Apr 02 11:59:39.811092 2025] [core:notice] [pid 16464:tid 508] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 02 11:59:39.817338 2025] [mpm_winnt:notice] [pid 16464:tid 508] AH00418: Parent: Created child process 21488
+[Wed Apr 02 11:59:40.905334 2025] [ssl:warn] [pid 21488:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 11:59:40.971587 2025] [ssl:warn] [pid 21488:tid 500] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 02 11:59:41.048813 2025] [mpm_winnt:notice] [pid 21488:tid 500] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 02 12:04:41.123312 2025] [php:error] [pid 21488:tid 1908] [client ::1:60227] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Tue Apr 08 08:56:03.654276 2025] [ssl:warn] [pid 15508:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 08:56:03.727990 2025] [core:warn] [pid 15508:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 08 08:56:03.741837 2025] [ssl:warn] [pid 15508:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 08:56:04.369591 2025] [mpm_winnt:notice] [pid 15508:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Apr 08 08:56:04.369591 2025] [mpm_winnt:notice] [pid 15508:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Apr 08 08:56:04.369591 2025] [core:notice] [pid 15508:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 08 08:56:04.376371 2025] [mpm_winnt:notice] [pid 15508:tid 472] AH00418: Parent: Created child process 508
+[Tue Apr 08 08:56:05.471664 2025] [ssl:warn] [pid 508:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 08:56:05.543587 2025] [ssl:warn] [pid 508:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 08:56:05.618942 2025] [mpm_winnt:notice] [pid 508:tid 468] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 08 21:32:50.167047 2025] [ssl:warn] [pid 15408:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 21:32:50.239040 2025] [core:warn] [pid 15408:tid 476] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 08 21:32:50.254511 2025] [ssl:warn] [pid 15408:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 21:32:50.850722 2025] [mpm_winnt:notice] [pid 15408:tid 476] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Apr 08 21:32:50.850722 2025] [mpm_winnt:notice] [pid 15408:tid 476] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Apr 08 21:32:50.850722 2025] [core:notice] [pid 15408:tid 476] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 08 21:32:50.859269 2025] [mpm_winnt:notice] [pid 15408:tid 476] AH00418: Parent: Created child process 24492
+[Tue Apr 08 21:32:51.985861 2025] [ssl:warn] [pid 24492:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 21:32:52.059326 2025] [ssl:warn] [pid 24492:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 08 21:32:52.135103 2025] [mpm_winnt:notice] [pid 24492:tid 468] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 08 21:43:29.712031 2025] [php:error] [pid 24492:tid 1924] [client ::1:62986] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`job_portal`.`internships`, CONSTRAINT `internships_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`)) in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\delete_student.php:15\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\delete_student.php(15): mysqli->query('DELETE FROM stu...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\delete_student.php on line 15, referer: http://localhost/integrate%20(2)/integrate/admin/manage_students.php
+[Tue Apr 08 21:43:56.193262 2025] [php:error] [pid 24492:tid 1892] [client ::1:63010] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`job_portal`.`internships`, CONSTRAINT `internships_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`)) in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\delete_student.php:15\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\delete_student.php(15): mysqli->query('DELETE FROM stu...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\delete_student.php on line 15, referer: http://localhost/integrate%20(2)/integrate/admin/manage_students.php
+[Tue Apr 08 21:55:54.014728 2025] [php:error] [pid 24492:tid 1892] [client ::1:63561] script 'C:/xampp/htdocs/integrate (2)/integrate/admin/edit_coordinator.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/admin/manage_coordinators.php
+[Wed Apr 09 13:15:00.405774 2025] [ssl:warn] [pid 2508:tid 484] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 13:15:00.478983 2025] [core:warn] [pid 2508:tid 484] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 09 13:15:00.493660 2025] [ssl:warn] [pid 2508:tid 484] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 13:15:01.098934 2025] [mpm_winnt:notice] [pid 2508:tid 484] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Apr 09 13:15:01.098934 2025] [mpm_winnt:notice] [pid 2508:tid 484] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Apr 09 13:15:01.098934 2025] [core:notice] [pid 2508:tid 484] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 09 13:15:01.106264 2025] [mpm_winnt:notice] [pid 2508:tid 484] AH00418: Parent: Created child process 23252
+[Wed Apr 09 13:15:02.231303 2025] [ssl:warn] [pid 23252:tid 184] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 13:15:02.301549 2025] [ssl:warn] [pid 23252:tid 184] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 13:15:02.375438 2025] [mpm_winnt:notice] [pid 23252:tid 184] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 09 13:34:52.301076 2025] [php:error] [pid 23252:tid 1892] [client ::1:57705] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Degree in Computer Science or related field', shift='Day Shift ', schedule=...' at line 1 in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php:27\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php(27): mysqli->query('UPDATE jobs SET...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php on line 27, referer: http://localhost/integrate%20(2)/integrate/admin/edit_job.php?job_id=31
+[Wed Apr 09 13:35:01.841536 2025] [php:error] [pid 23252:tid 1924] [client ::1:57734] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Degree in Computer Science or related field', shift='Day Shift ', schedule=...' at line 1 in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php:27\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php(27): mysqli->query('UPDATE jobs SET...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php on line 27, referer: http://localhost/integrate%20(2)/integrate/admin/edit_job.php?job_id=31
+[Wed Apr 09 13:35:22.730009 2025] [php:error] [pid 23252:tid 1924] [client ::1:57752] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Degree in Computer Science or related field', shift='Day Shift ', schedule=...' at line 1 in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php:27\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php(27): mysqli->query('UPDATE jobs SET...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php on line 27, referer: http://localhost/integrate%20(2)/integrate/admin/edit_job.php?job_id=31
+[Wed Apr 09 13:35:54.210178 2025] [php:error] [pid 23252:tid 1924] [client ::1:57766] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Degree in Computer Science or related field', shift='Day Shift ', schedule=...' at line 1 in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php:27\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php(27): mysqli->query('UPDATE jobs SET...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php on line 27, referer: http://localhost/integrate%20(2)/integrate/admin/edit_job.php?job_id=31
+[Wed Apr 09 13:59:27.293359 2025] [php:error] [pid 23252:tid 1892] [client ::1:58721] script 'C:/xampp/htdocs/integrate (2)/integrate/admin/edit_coordinator.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/admin/manage_coordinators.php
+[Wed Apr 09 14:04:13.578012 2025] [php:error] [pid 23252:tid 1892] [client ::1:59005] script 'C:/xampp/htdocs/integrate (2)/integrate/student/fetch_jobs.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/view_jobs.php
+[Wed Apr 09 14:05:57.119149 2025] [ssl:warn] [pid 4788:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 14:05:57.200645 2025] [core:warn] [pid 4788:tid 504] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 09 14:05:57.220126 2025] [ssl:warn] [pid 4788:tid 504] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 14:05:57.311457 2025] [mpm_winnt:notice] [pid 4788:tid 504] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Apr 09 14:05:57.311457 2025] [mpm_winnt:notice] [pid 4788:tid 504] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Apr 09 14:05:57.311457 2025] [core:notice] [pid 4788:tid 504] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 09 14:05:57.319597 2025] [mpm_winnt:notice] [pid 4788:tid 504] AH00418: Parent: Created child process 15056
+[Wed Apr 09 14:05:58.413437 2025] [ssl:warn] [pid 15056:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 14:05:58.495522 2025] [ssl:warn] [pid 15056:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 09 14:05:58.565485 2025] [mpm_winnt:notice] [pid 15056:tid 524] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 09 14:10:13.999356 2025] [php:error] [pid 15056:tid 1920] [client ::1:59279] script 'C:/xampp/htdocs/integrate (2)/integrate/student/fetch_jobs.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/view_jobs.php
+[Wed Apr 09 14:10:31.877973 2025] [php:error] [pid 15056:tid 1920] [client ::1:59279] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Wed Apr 09 14:10:37.858855 2025] [php:error] [pid 15056:tid 1920] [client ::1:59279] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Thu Apr 10 06:18:59.650309 2025] [ssl:warn] [pid 10992:tid 480] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 10 06:18:59.762103 2025] [core:warn] [pid 10992:tid 480] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 06:18:59.785639 2025] [ssl:warn] [pid 10992:tid 480] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 10 06:19:00.739692 2025] [mpm_winnt:notice] [pid 10992:tid 480] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Thu Apr 10 06:19:00.739692 2025] [mpm_winnt:notice] [pid 10992:tid 480] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu Apr 10 06:19:00.739692 2025] [core:notice] [pid 10992:tid 480] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Apr 10 06:19:00.748062 2025] [mpm_winnt:notice] [pid 10992:tid 480] AH00418: Parent: Created child process 18532
+[Thu Apr 10 06:19:01.931811 2025] [ssl:warn] [pid 18532:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 10 06:19:02.001670 2025] [ssl:warn] [pid 18532:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 10 06:19:02.069029 2025] [mpm_winnt:notice] [pid 18532:tid 464] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 10 06:20:21.615066 2025] [php:error] [pid 18532:tid 1924] [client ::1:63875] script 'C:/xampp/htdocs/integrate (2)/integrate/student/search_performance.php' not found or unable to stat, referer: http://localhost/integrate%20(2)/integrate/student/performance_track.php
+[Tue Apr 15 20:31:19.428936 2025] [ssl:warn] [pid 66896:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 15 20:31:19.500987 2025] [core:warn] [pid 66896:tid 532] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 15 20:31:19.515662 2025] [ssl:warn] [pid 66896:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 15 20:31:20.142159 2025] [mpm_winnt:notice] [pid 66896:tid 532] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Apr 15 20:31:20.142159 2025] [mpm_winnt:notice] [pid 66896:tid 532] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Apr 15 20:31:20.142159 2025] [core:notice] [pid 66896:tid 532] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Apr 15 20:31:20.150194 2025] [mpm_winnt:notice] [pid 66896:tid 532] AH00418: Parent: Created child process 12188
+[Tue Apr 15 20:31:21.235176 2025] [ssl:warn] [pid 12188:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 15 20:31:21.306801 2025] [ssl:warn] [pid 12188:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 15 20:31:21.383887 2025] [mpm_winnt:notice] [pid 12188:tid 468] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 16 09:19:48.861309 2025] [ssl:warn] [pid 33364:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 16 09:19:48.931487 2025] [core:warn] [pid 33364:tid 528] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 16 09:19:48.945232 2025] [ssl:warn] [pid 33364:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 16 09:19:49.534725 2025] [mpm_winnt:notice] [pid 33364:tid 528] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Apr 16 09:19:49.534725 2025] [mpm_winnt:notice] [pid 33364:tid 528] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Apr 16 09:19:49.534725 2025] [core:notice] [pid 33364:tid 528] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Apr 16 09:19:49.543370 2025] [mpm_winnt:notice] [pid 33364:tid 528] AH00418: Parent: Created child process 12108
+[Wed Apr 16 09:19:50.659759 2025] [ssl:warn] [pid 12108:tid 204] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 16 09:19:50.730798 2025] [ssl:warn] [pid 12108:tid 204] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 16 09:19:50.806123 2025] [mpm_winnt:notice] [pid 12108:tid 204] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 16 09:23:23.550918 2025] [php:error] [pid 12108:tid 1908] [client ::1:64882] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Degree in Computer Science or related field', shift='Day Shift ', schedule=...' at line 1 in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php:27\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php(27): mysqli->query('UPDATE jobs SET...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\admin\\edit_job.php on line 27, referer: http://localhost/integrate%20(2)/integrate/admin/edit_job.php?job_id=31
+[Wed Apr 16 09:26:21.396801 2025] [php:error] [pid 12108:tid 1908] [client ::1:65183] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php:26\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php(26): mysqli->query('INSERT INTO stu...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php on line 26, referer: http://localhost/integrate%20(2)/integrate/student/register.php
+[Wed Apr 16 09:26:37.149646 2025] [php:error] [pid 12108:tid 1908] [client ::1:65200] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\\xampp\\htdocs\\integrate (2)\\integrate\\includes\\db.php:8\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\includes\\db.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'job_portal')\n#1 C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\register.php(7): include('C:\\\\xampp\\\\htdocs...')\n#2 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\includes\\db.php on line 8, referer: http://localhost/integrate%20(2)/integrate/student/login.php
+[Wed Apr 16 09:26:46.440553 2025] [php:error] [pid 12108:tid 1908] [client ::1:65211] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\\xampp\\htdocs\\integrate (2)\\integrate\\includes\\db.php:8\nStack trace:\n#0 C:\\xampp\\htdocs\\integrate (2)\\integrate\\includes\\db.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'job_portal')\n#1 C:\\xampp\\htdocs\\integrate (2)\\integrate\\student\\login.php(4): include('C:\\\\xampp\\\\htdocs...')\n#2 {main}\n  thrown in C:\\xampp\\htdocs\\integrate (2)\\integrate\\includes\\db.php on line 8, referer: http://localhost/integrate%20(2)/integrate/student/
